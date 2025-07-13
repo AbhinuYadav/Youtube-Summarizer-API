@@ -15,18 +15,20 @@ Clean, secure API for easy integration
 🗂️ Project Structure
 text
 your-project/
-│
-├── app.py                # FastAPI backend (YouTube + Gemini)
-├── .env                  # Backend secrets (not tracked by git)
-├── .gitignore            # Ignores all unnecessary files
-├── frontend/             # Vue 3 frontend app
-│   ├── src/
-│   │   └── App.vue       # Main UI component
-│   ├── public/
-│   ├── package.json
-│   ├── vite.config.js
-│   └── .env              # Frontend secrets (not tracked)
-└── README.md             # This file
+
+│                                                                                                                        
+├── app.py                # FastAPI backend (YouTube + Gemini)                                                                                    
+├── .env                  # Backend secrets (not tracked by git)      
+├── .gitignore            # Ignores all unnecessary files             
+├── frontend/             # Vue 3 frontend app                                                                                                                        
+│   ├── src/                                                                                                                        
+│   │   └── App.vue       # Main UI component                                                                                                                        
+│   ├── public/                                                                                                                        
+│   ├── package.json                                                                                                                        
+│   ├── vite.config.js                                                                                                                        
+│   └── .env              # Frontend secrets (not tracked)                                                                                                                  
+└── README.md             # This file                                                                                                                        
+
 🚀 Quick Start
 1. Backend (FastAPI + Gemini)
 Requirements: Python 3.8+, youtube-transcript-api, google-genai, python-dotenv, fastapi, uvicorn
@@ -93,15 +95,12 @@ FastAPI
 
 Vue.js
 
-YouTube Transcript API
+YouTube Transcript APIte
 
 Google Gemini API
 
 python-dotenv
 
-Vite
-
-📸 Screenshots
-Add screenshots of your UI here!
+Vi
 
 Enjoy your YouTube Summarizer!
