@@ -1,0 +1,62 @@
+# ---- PYTHON BACKEND ----
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.log
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+
+# VSCode/IDE settings
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# ---- VUE FRONTEND ----
+# Ignore everything in frontend by default
+/frontend/*
+
+# But NOT these files and folders:
+!/frontend/.gitignore
+!/frontend/package.json
+!/frontend/package-lock.json
+!/frontend/vite.config.js
+!/frontend/README.md
+!/frontend/src/
+!/frontend/src/**
+!/frontend/public/
+!/frontend/public/**
+!/frontend/.env.example
+
+# Ignore frontend environment and build files
+/frontend/.env
+/frontend/.env.*
+/frontend/node_modules/
+/frontend/dist/
+/frontend/build/
+
+# Ignore editor, OS, and log files in frontend
+/frontend/.vscode/
+/frontend/.idea/
+/frontend/.DS_Store
+/frontend/Thumbs.db
+/frontend/*.log
+/frontend/*.tmp
